@@ -109,6 +109,11 @@ footer {
   bottom: 0;
 }
 
+.projekt-zdjecie {
+  max-width: 100%;
+  height: auto;
+}
+
 @media (max-width: 768px) {
   .lista-nawigacji {
     display: none;
@@ -147,4 +152,17 @@ footer {
     margin: 20px 0;
     margin-left: 0;
   }
+
+  .projekt-zdjecie {
+    max-width: 100%;
+    height: auto;
+  }
 }
+
+@media (max-width: 600px) {
+  .projekt-zdjecie {
+    max-width: 90%;
+    height: auto;
+  }
+}
+
