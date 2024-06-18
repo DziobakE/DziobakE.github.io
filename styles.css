@@ -83,11 +83,18 @@ main {
 }
 
 .kontakt-zdjecie img {
-  max-width: 200px;
-  height: auto;
-  border-radius: 50%;
-  border: 2px solid #4CAF50;
+  width: 200px;
+  height: 200px;
+  border-radius: 0; /* Kwadratowe */
+  border: 4px solid #388E3C; /* Ciemniejszy zielony */
   margin-left: 20px;
+}
+
+.projekt-zdjecie {
+  width: 100%;
+  max-width: 100%; 
+  border: 4px solid #388E3C; /* Ciemniejszy zielony */
+  box-sizing: border-box;
 }
 
 section {
@@ -107,11 +114,6 @@ footer {
   position: relative;
   width: 100%;
   bottom: 0;
-}
-
-.projekt-zdjecie {
-  max-width: 100%;
-  height: auto;
 }
 
 @media (max-width: 768px) {
@@ -165,4 +167,3 @@ footer {
     height: auto;
   }
 }
-
